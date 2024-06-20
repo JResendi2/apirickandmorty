@@ -12,21 +12,19 @@ class apiRickAndMortyController extends Controller
      */
     public function index(): array
     {
-        $page1 = Http::get("https://rickandmortyapi.com/api/character/?page=1"); // devuelve un objeto response
-        $page3 = Http::get("https://rickandmortyapi.com/api/character/?page=2"); // devuelve un objeto response
-        $page2 = Http::get("https://rickandmortyapi.com/api/character/?page=3"); // devuelve un objeto response
+        try {
+            $page1 = Http::get("https://rickandmortyapi.com/api/character/?page=1"); // devuelve un objeto response
+            $page3 = Http::get("https://rickandmortyapi.com/api/character/?page=2"); // devuelve un objeto response
+            $page2 = Http::get("https://rickandmortyapi.com/api/character/?page=3"); // devuelve un objeto response
+            $arryInfo = array_merge($page1["results"], $page2["results"], $page3["results"]); // $page1["results"] -> es un array
+
+        } catch (\Throwable $th) {
+            $arryInfo = [];
+        }
+        
 
 
-        $arryInfo = array_merge($page1["results"], $page2["results"], $page3["results"]); // $page1["results"] -> es un array
         return $arryInfo;  //devolver un json
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
     }
 
     /**
@@ -34,7 +32,11 @@ class apiRickAndMortyController extends Controller
      */
     public function show(string $id)
     {
-        $character = Http::get("https://rickandmortyapi.com/api/character/" . $id); // devuelve un objeto response
+        try {
+            $character = Http::get("https://rickandmortyapi.com/api/character/" . $id); // devuelve un objeto response
+        } catch (\Throwable $th) {
+            $character = json_encode([]);
+        }
         return $character;  //devolver un json
     }
 
@@ -52,8 +54,11 @@ class apiRickAndMortyController extends Controller
             $filters = substr($filters, 0, strlen($filters) - 1);
             $filters = "?" . $filters;
         }
-
-        $character = Http::get("https://rickandmortyapi.com/api/character/" . $filters); // devuelve un objeto response
+        try {
+            $character = Http::get("https://rickandmortyapi.com/api/character/" . $filters); // devuelve un objeto response
+        } catch (\Throwable $th) {
+            $character = [];
+        }
         
         if (isset($character["results"])) {
             return [
