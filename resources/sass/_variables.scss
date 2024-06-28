@@ -2,11 +2,19 @@
 $verde: rgb(85, 204, 68);
 $gris: rgb(60, 62, 68);
 $gris-claro: rgb(158, 158, 158);
+$verde-claro: rgb(132, 217, 188);
 $negro: rgb(32, 35, 41);
+$negro-claro: rgb(49, 60, 78);
+$azul: #6990f2;
+$azul-oscuro: #037bc0;
+$success: #fcd972;
 
+$light: $azul;
+$info: $azul;
 $primary: $negro;
 $success: $verde;
 $secondary: $gris;
+$border-color: $azul;
 
 $headings-font-family: "Poppins", sans-serif;   // Fuente de los h1
 $headings-font-weight: 700;                     // Negrita de los h1

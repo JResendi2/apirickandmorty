@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PdfController;
 use App\Livewire\RickandmortyController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,4 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', RickandmortyController::class);
+Route::get('/', function(){
+    return view("welcome");
+});
+
+Route::get('/rickandmorty', RickandmortyController::class)->name("rickandmorty");
+
+Route::get('/mergepdf', [PdfController::class, "index"])->name("pdf.index");
+Route::post('/mergepdf/merge', [PdfController::class, "merge"])->name("merge");
+Route::get('/mergepdf/get-pdf/{filemane}', [PdfController::class, "getPDF"])->name("get-pdf");
+Route::get('/mergepdf/download-pdf/{filemane}', [PdfController::class, "downloadPdf"])->name("download-pdf");
