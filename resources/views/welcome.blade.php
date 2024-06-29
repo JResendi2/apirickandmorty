@@ -453,7 +453,7 @@
                                     Página web para unir archivos PDF.
                                 </p>
         
-                                <a href="https://github.com/JResendi2/apirickandmorty.git">
+                                <a href="https://github.com/JResendi2/mergepdf.git">
                                     <div class="d-flex align-items-center gap-1">
                                         <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                             <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -520,10 +520,11 @@
                 <div class="col-md-6 mb-md-0 mb-4">
                     <div class="proyect">
                         <h5>Store</h5>
-
+                        <a href="https://reedij.pythonanywhere.com/" target="_blank">
                             <div class="proyect-img">
                                 <img class="img-fluid" src="{{asset('img/store.png')}}" alt="">
                             </div>
+                        </a>
 
                         <div class="d-flex justify-content-between">
 
@@ -531,7 +532,7 @@
                                 Frontend de una tienda de ropa implementada con DJango del lado del Backend.
                             </p>
     
-                            <a href="https://github.com/JResendi2/apirickandmorty.git">
+                            <a href="https://github.com/JResendi2/store.git">
                                 <div class="d-flex align-items-center gap-1">
                                     <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
