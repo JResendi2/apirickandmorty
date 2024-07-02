@@ -22,11 +22,12 @@ p{
 }
 
 .app-header {
-    background-color: rgba($color: #000000, $alpha: 0.2);
+    background-color: black;
     position: fixed;
     top: 0;
     right: 0;
     width: 100%;
+    z-index: 100;
 
     .navbar-collapse {
         height: 3rem;
@@ -47,9 +48,9 @@ p{
     }
 }
 #section-1 {
-    margin-bottom: 6rem;
     background-size: cover;
     background-position: center center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     .section-1 {
         background-color: rgba($color: #000000, $alpha: 0.3);
         padding-top: 6rem;
@@ -66,6 +67,9 @@ p{
         border-radius: 2px;
         padding: 2rem;
     }
+}
+#section-2, #section-3, #section-4, #section-5, #section-6, #section-7{
+    padding-top: 5rem;
 }
 .section {
     background-color: white;
@@ -107,28 +111,49 @@ p{
 }
 
 .proyect{
-    background-color: $verde-claro;
-    padding: 2rem;
+    background-color: $negro-claro;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    justify-content: space-between;
+    gap: 2rem;
+    border-radius: 15px;
+    height: 100%;
+
     h5{
+        padding-top: 1rem;
+        margin: 0;
         width: 100%;
         text-align: center;
         color: $azul-oscuro;
     }
+    p{
+        color: white;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 5rem;
+    }
+    .proyect-content{
+        position: relative;
+    }
+    .github-logo{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+    }
 
     .proyect-img{
-        border-radius: 8px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
         overflow: hidden;
+        box-shadow: 0px 10px 10px rgba(0,0,0, 0.2);
     }
 
     .proyect-img img{
-        border-radius: 8px;
+        width: 100%;
         transition: transform 0.5s ease;
     }
 
     .proyect-img img:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
     }
 }
