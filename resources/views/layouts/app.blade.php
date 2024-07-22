@@ -13,7 +13,6 @@
     @yield('style')
 </head>
 <body>
-    {{comment}}
     
         @yield('content')
 
