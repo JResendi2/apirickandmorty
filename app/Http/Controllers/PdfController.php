@@ -35,7 +35,7 @@ class pdfController extends Controller
        Storage::makeDirectory('temp');
 
        $filename = "merge_" . time() . '.pdf';
-       $oMerger->save(storage_path('app/temp' . $filename));
+       $oMerger->save(storage_path('app/temp/' . $filename));
 
        return response()->json($filename);       
     }
