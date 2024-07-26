@@ -56,6 +56,7 @@ return [
     */
 
     'url' => env('APP_URL', 'https://reediz.com'),
+    'url' => env('ASSET_URL', 'https://reediz-com.preview-domain.com/public/'),
 
     /*
     |--------------------------------------------------------------------------
