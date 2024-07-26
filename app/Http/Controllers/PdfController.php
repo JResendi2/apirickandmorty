@@ -32,21 +32,21 @@ class pdfController extends Controller
 
        $oMerger->merge();
 
-       Storage::makeDirectory('merged_documents');
+       Storage::makeDirectory('temp');
 
-       $filename = "merged_documents\merge_" . time() . '.pdf';
-       $oMerger->save(storage_path('app\\' . $filename));
+       $filename = "merge_" . time() . '.pdf';
+       $oMerger->save(storage_path('app/temp' . $filename));
 
        return response()->json($filename);       
     }
 
     public function getPDF(string $filename)
     {
-        return response()->file(storage_path('app\\' . $filename));
+        return response()->file(storage_path('app/temp/' . $filename));
     }
 
     public function downloadPdf(string $filename)
     {
-        return response()->download(storage_path('app\\' . $filename));
+        return response()->download(storage_path('app/temp/' . $filename));
     }
 }

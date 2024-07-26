@@ -616,7 +616,7 @@
     <section id="section-6" class="container-xl">
 
         <div class="section">
-            <h3 class="mb-4">Educacion</h3>
+            <h3 class="mb-4">Educación</h3>
 
             <div class="row">
                 <div class="col-md-6">
