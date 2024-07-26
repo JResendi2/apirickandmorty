@@ -17,7 +17,7 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-isc/imagenes/*.png
-isc/imagenes/*.jpg
-isc/imagenes/*.jpeg
-isc/archivos/*.*
+/public/isc/imagenes/*.png
+/public/isc/imagenes/*.jpg
+/public/isc/imagenes/*.jpeg
+/public/isc/archivos/*.*

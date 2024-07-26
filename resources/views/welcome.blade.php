@@ -504,7 +504,7 @@
 
 
                         <div class="proyect-content">
-                            <a href="/isc/1_publico/1_paginas/" target="_blank">
+                            <a href="/public/isc/1_publico/1_paginas/" target="_blank">
                                 <div class="proyect-img">
                                     <img class="img-fluid" src="{{asset('img/isc.png')}}" alt="">
                                 </div>
