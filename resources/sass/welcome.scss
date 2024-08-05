@@ -27,7 +27,7 @@ p{
     top: 0;
     right: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 200;
 
     .navbar-collapse {
         height: 3rem;
@@ -109,6 +109,32 @@ p{
 .exp-laboral{
     text-align: justify;
 }
+.contenedor-proyect{
+    height: 35rem;
+    @include media-breakpoint-up(sm) {
+        height: 45rem;
+    }
+    @include media-breakpoint-up(md) {
+        height: 35rem;
+    }
+   
+    @include media-breakpoint-up(lg) {
+        height: 40rem;
+    }
+    
+    @include media-breakpoint-up(xl) {
+        height: 40rem;
+    }
+    
+    @include media-breakpoint-up(xxl) {
+        height: 45rem;
+    }
+    
+}
+
+/* Selectores para los proyectos para colocarlos en una posicion en z. Y asi mostrar las sombras de un elemento encima del otro*/
+
+
 
 .proyect{
     background-color: $negro-claro;
@@ -117,7 +143,8 @@ p{
     justify-content: space-between;
     gap: 2rem;
     border-radius: 15px;
-    height: 100%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
+    border: solid $azul-oscuro 2px;
 
     h5{
         padding-top: 1rem;
@@ -145,7 +172,6 @@ p{
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         overflow: hidden;
-        box-shadow: 0px 10px 10px rgba(0,0,0, 0.2);
     }
 
     .proyect-img img{
@@ -156,4 +182,26 @@ p{
     .proyect-img img:hover{
         transform: scale(1.1);
     }
+    .proyect-footer{
+        overflow: hidden;
+        max-height: 0px;
+        transition: max-height 1s ease-out;
+        margin-top: -20px; // -20px para quitarle el gap de flex
+        background: linear-gradient(to bottom, $negro-claro, $azul-oscuro);
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+
+        .proyect-info{
+            padding: 2rem;
+            background-color: transparent;
+        }
+    }
+
+    &:hover {
+        .proyect-footer{
+            max-height: 200px;
+        }
+    }
+
 }
+

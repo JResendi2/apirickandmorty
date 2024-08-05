@@ -413,15 +413,13 @@
         <div class="section">
             <h3 class="mb-5">Aplicaciones Web</h3>
             <div class="row mb-5 g-5">
-                <div class="col-md-6 mb-md-0 mb-5">
+                <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 100">
                     <div class="proyect">
                         <h5>API Rick and Morty</h5>
 
-                        <p>
+                        <p class="align-content-center">
                             Consumo de una API de imagenes
                         </p>
-
-
 
                         <div class="proyect-content">
 
@@ -448,17 +446,24 @@
                                 </div>
                             </a>
                         </div>
+
+                        <div class="proyect-footer text-white">
+                            <div class="proyect-info">
+                                Uso de una API de Rick and Morty <br>
+                                fsafsdfsfs <br>
+                                fsfsdf <br>
+                                fsfsd
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 mb-md-0 mb-4">
+                <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 90">
                     <div class="proyect">
 
                         <h5>Merge pdf</h5>
 
-
-
-                        <p>
+                        <p class="align-content-center">
                             Página web para unir archivos PDF.
                         </p>
                         <div class="proyect-content">
@@ -488,17 +493,24 @@
                             </a>
 
                         </div>
-
+                        <div class="proyect-footer text-white">
+                            <div class="proyect-info">
+                                Uso de una API de Rick and Morty <br>
+                                fsafsdfsfs <br>
+                                fsfsdf <br>
+                                fsfsd
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="row mb-5 g-5">
-                <div class="col-md-6 mb-md-0 mb-4">
+                <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 80">
                     <div class="proyect">
                         <h5>ISC</h5>
 
-                        <p>
+                        <p class="align-content-center">
                             Sitio web la carrera de Ingeniería en Sistemas Computacionales.
                         </p>
 
@@ -532,11 +544,11 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 mb-md-0 mb-4">
+                <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 70">
                     <div class="proyect">
                         <h5>Store</h5>
 
-                        <p>
+                        <p class="align-content-center">
                             Frontend de una tienda de ropa implementada con DJango del lado del Backend.
                         </p>
 
