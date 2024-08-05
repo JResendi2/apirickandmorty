@@ -132,10 +132,6 @@ p{
     
 }
 
-/* Selectores para los proyectos para colocarlos en una posicion en z. Y asi mostrar las sombras de un elemento encima del otro*/
-
-
-
 .proyect{
     background-color: $negro-claro;
     display: flex;
@@ -145,6 +141,7 @@ p{
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
     border: solid $azul-oscuro 2px;
+    position: relative;
 
     h5{
         padding-top: 1rem;
@@ -152,6 +149,15 @@ p{
         width: 100%;
         text-align: center;
         color: $azul-oscuro;
+    }
+    .proyect-date{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-weight: 700;
+        padding: 0;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
     }
     p{
         color: white;
@@ -194,12 +200,13 @@ p{
         .proyect-info{
             padding: 2rem;
             background-color: transparent;
+            text-align: justify;
         }
     }
 
     &:hover {
         .proyect-footer{
-            max-height: 200px;
+            max-height: 400px;
         }
     }
 

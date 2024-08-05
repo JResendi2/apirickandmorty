@@ -416,6 +416,7 @@
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 100">
                     <div class="proyect">
                         <h5>API Rick and Morty</h5>
+                        <p class="proyect-date">Abril - 2024</p>
 
                         <p class="align-content-center">
                             Consumo de una API de imagenes
@@ -449,10 +450,10 @@
 
                         <div class="proyect-footer text-white">
                             <div class="proyect-info">
-                                Uso de una API de Rick and Morty <br>
-                                fsafsdfsfs <br>
-                                fsfsdf <br>
-                                fsfsd
+                                Consumo de la API de Rick And Morty <br> <br>
+                                Utiliza el lenguaje de <strong>PHP</strong>  y el framework <strong>Laravel</strong>, con <strong>Livewire</strong> para hacer reactiva la página. <br> <br>
+                                La lógica principal no se maneja con JavaScript, sino con <strong>Livewire</strong> ya que es un framework para JavaScritp que trabaja con PHP. <br> <br>
+                                El diseño está inspirado en una actividad que realice dentro de mis residencias profesionales, y como en mis residencias estaba trabajando con PHP decidi usar los mismos framework con los que trabajaba.
                             </div>
                         </div>
                     </div>
@@ -462,6 +463,7 @@
                     <div class="proyect">
 
                         <h5>Merge pdf</h5>
+                        <p class="proyect-date">Abril - 2024</p>
 
                         <p class="align-content-center">
                             Página web para unir archivos PDF.
@@ -495,10 +497,9 @@
                         </div>
                         <div class="proyect-footer text-white">
                             <div class="proyect-info">
-                                Uso de una API de Rick and Morty <br>
-                                fsafsdfsfs <br>
-                                fsfsdf <br>
-                                fsfsd
+                                Del lado del cliente utliza JavaScript con JQuery y del lado del servidor trabaja PHP con Laravel para unir los PDF´s <br><br>
+                                Fue un proyecto que inicio como una practica para crear un input personalizado para seleccionar archivos. De ahí lo complemente con
+                                la funcionalida de fusionar los documentos, además de poder reordenar los archivos y seleccionar más archivos o eliminar los seleccionados antes de fusionarlos.
                             </div>
                         </div>
                     </div>
@@ -509,6 +510,7 @@
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 80">
                     <div class="proyect">
                         <h5>ISC</h5>
+                        <p class="proyect-date">Abril - 2024</p>
 
                         <p class="align-content-center">
                             Sitio web la carrera de Ingeniería en Sistemas Computacionales.
@@ -541,12 +543,21 @@
 
                             </a>
                         </div>
+                        <div class="proyect-footer text-white">
+                            <div class="proyect-info">
+                                Es una aplicación web que realicé como proyecto en una matéria en conjunto con otros compañeros. <br> <br>
+                                Es una aplicación que no esta basada en ningun patron de diseño, ni utiliza ningun framework. Esta hecha en <strong>PHP</strong> y <strong>JavaScript</strong> (además del HTML y CSS). <br> <br>
+                                Fué realizada con el fin de ser un blog y gestor de actividades para la carrera de ISC.
+                            </div>
+                        </div>
                     </div>
+                    
                 </div>
 
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 70">
                     <div class="proyect">
                         <h5>Store</h5>
+                        <p class="proyect-date">Abril - 2024</p>
 
                         <p class="align-content-center">
                             Frontend de una tienda de ropa implementada con DJango del lado del Backend.
@@ -575,8 +586,14 @@
                                 </div>
                             </a>
                         </div>
-
-
+                        <div class="proyect-footer text-white">
+                            <div class="proyect-info">
+                                En en lado del servidor utiliza el lenguaje de Python con el framework de DJango para gestionar toda la información relacionada con los usuarios y productos. Del lado del cliente utliza JavaScript, HTML y CSS <br> <br>
+                                La funcionalidad principal es emular una compra online desde el registro del cliente hasta la parte donde se agrega el producto al carrito de compras. <br><br>
+                                Esta aplicación surgio de un curso de Udemy sobre diseño web, donde una de las practicas era realizar este diseño, despues yo le agrege toda la 
+                                lógica de programación para que funcionara.
+                            </div>
+                        </div>
                     </div>
                 </div>
 
