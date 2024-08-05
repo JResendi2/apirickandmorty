@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
-    @vite(['resources\js\app-trivia.js', 'resources\css\normalize.css', 'resources\css\app-trivia.css' ])
+    @vite(['resources/js/app-trivia.js', 'resources/css/normalize.css', 'resources/css/app-trivia.css' ])
     <title>Trivia de preguntas</title>
 </head>
 <body>
