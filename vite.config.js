@@ -5,9 +5,12 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/*.css',
-                'resources/sass/*.scss',
-                'resources/js/*.js',
+                'resources/css/app-trivia.css',
+                'resources/css/normalize.css',
+                'resources/sass/welcome.scss',
+                'resources/sass/app.scss',
+                'resources/js/app.js',
+                'resources/js/app-trivia.js',
             ],
             refresh: true,
         }),
