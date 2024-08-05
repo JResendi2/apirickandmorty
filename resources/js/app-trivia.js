@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     section_preguntas.classList.add("d-none");
     section_resultados.classList.add("d-none");
 
-    fetch("http://127.0.0.1:8000/temas")
+    fetch("http://reediz.com/temas")
         .then(data => data.json())
         .then(res => {
             let i = 0;
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
         section_temas.classList.add("d-none");
         section_temas.classList.remove("d-inline");
 
-        fetch("http://127.0.0.1:8000/preguntas/" + tema_id)
+        fetch("http://reediz.com/preguntas/" + tema_id)
             .then(data => data.json())
             .then(res => {
                 preguntas = res;
