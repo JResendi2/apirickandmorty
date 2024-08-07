@@ -518,7 +518,7 @@
 
 
                         <div class="proyect-content">
-                            <a href="/public/isc/1_publico/1_paginas/" target="_blank">
+                            <a href="{{env('URL_ISC')}}" target="_blank">
                                 <div class="proyect-img">
                                     <img class="img-fluid" src="{{asset('img/isc.png')}}" alt="">
                                 </div>
@@ -613,7 +613,7 @@
                         <div class="proyect-content">
                             <a href="{{route('jugar')}}" target="_blank">
                                 <div class="proyect-img">
-                                    <img class="img-fluid" src="{{asset('img/isc.png')}}" alt="">
+                                    <img class="img-fluid" src="{{asset('img/trivia.png')}}" alt="">
                                 </div>
                             </a>
 

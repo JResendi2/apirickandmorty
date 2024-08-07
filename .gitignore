@@ -21,3 +21,6 @@ yarn-error.log
 /public/isc/imagenes/*.jpg
 /public/isc/imagenes/*.jpeg
 /public/isc/archivos/*.*
+/public/isc/conexion/conexion.php
+/public/isc/2_admin/conexion/conexion.php
+/public/isc/3_docentes/conexion.php
