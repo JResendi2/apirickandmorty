@@ -30,6 +30,6 @@ Route::get('/mergepdf/get-pdf/{filemane}', [PdfController::class, "getPDF"])->na
 Route::get('/mergepdf/download-pdf/{filemane}', [PdfController::class, "downloadPdf"])->name("download-pdf");
 
 /* App de trivia */
-Route::get('/jugar', [ApiTrivia::class, 'jugar'])->name('jugar');
 Route::get('/temas', [ApiTrivia::class, 'getTemas'])->name('temas');
 Route::get('/preguntas/{tema}', [ApiTrivia::class, 'getPreguntas'])->name('preguntas');
+Route::get('/jugar', [ApiTrivia::class, 'jugar'])->name('jugar');

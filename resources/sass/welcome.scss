@@ -110,9 +110,9 @@ p{
     text-align: justify;
 }
 .contenedor-proyect{
-    height: 35rem;
+    height: 30rem;
     @include media-breakpoint-up(sm) {
-        height: 45rem;
+        height: 40rem;
     }
     @include media-breakpoint-up(md) {
         height: 35rem;
@@ -133,11 +133,12 @@ p{
 }
 
 .proyect{
+    min-height: 100%;
     background-color: $negro-claro;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2rem;
+    // gap: 2rem;
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.7);
     border: solid $azul-oscuro 2px;
@@ -160,10 +161,9 @@ p{
         font-size: 1.4rem;
     }
     p{
+        max-height: 7rem;
         color: white;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        height: 5rem;
+        padding: 0 2rem 2rem 2rem;
     }
     .proyect-content{
         position: relative;
@@ -192,7 +192,7 @@ p{
         overflow: hidden;
         max-height: 0px;
         transition: max-height 1s ease-out;
-        margin-top: -20px; // -20px para quitarle el gap de flex
+        // margin-top: -20px; // -20px para quitarle el gap de flex
         background: linear-gradient(to bottom, $negro-claro, $azul-oscuro);
         border-bottom-left-radius: 12px;
         border-bottom-right-radius: 12px;
@@ -202,13 +202,35 @@ p{
             background-color: transparent;
             text-align: justify;
         }
+
+        .proyect-more{
+            background-color: black;
+            padding-top: 2rem;
+            .proyect-more-title{
+                color: $anaranjado;
+                font-weight: bold;
+            }
+            .proyect-more-info p{
+                letter-spacing: 1px;
+                font-family: Fira Code, Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+            }
+
+            .row{
+                padding: 0 2rem 1rem 2rem;
+                margin-top: -1rem;
+            }
+
+            .colored-bullet::marker{
+                color: $verde;
+                font-size: 1.5em;
+            }
+        }
     }
 
     &:hover {
         .proyect-footer{
-            max-height: 400px;
+            max-height: 500px;
         }
     }
 
 }
-

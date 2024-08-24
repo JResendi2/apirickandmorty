@@ -1,9 +1,7 @@
 @extends('layouts.app')
 @section('style')
 <style>
-    #section-1 {
-        background-image: url({{asset('img/wallpaper.jpg')}});
-    }
+    #section-1 {background-image: url({{asset('img/wallpaper.jpg')}});}
 
 </style>
 @endsection
@@ -415,6 +413,7 @@
             <div class="row mb-5 g-5">
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 100">
                     <div class="proyect">
+
                         <h5>API Rick and Morty</h5>
                         <p class="proyect-date">Abril - 2024</p>
 
@@ -422,40 +421,63 @@
                             Consumo de una API de imagenes
                         </p>
 
-                        <div class="proyect-content">
+                        <div>
+                            <div class="proyect-content">
 
-                            <a href="{{route('rickandmorty')}}" target="_blank">
-                                <div class="proyect-img">
-                                    <img class="img-fluid" src="{{asset('img/ram.png')}}" alt="">
-                                </div>
-                            </a>
+                                <a href="{{route('rickandmorty')}}" target="_blank">
+                                    <div class="proyect-img">
+                                        <img class="img-fluid" src="{{asset('img/ram.png')}}" alt="">
+                                    </div>
+                                </a>
 
-                            <a class="github-logo" href="https://github.com/JResendi2/apirickandmorty.git">
-                                <div class="d-flex align-items-center gap-1">
-                                    <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#ffffff">
-                                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                    <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                                <a class="github-logo" href="https://github.com/JResendi2/apirickandmorty.git">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#ffffff">
+                                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
 
-                                                    </path>
+                                                        </path>
+                                                    </g>
                                                 </g>
                                             </g>
-                                        </g>
-                                    </svg>
-                                    <span class="text-white">GitHub</span>
-                                </div>
-                            </a>
-                        </div>
+                                        </svg>
+                                        <span class="text-white">GitHub</span>
+                                    </div>
+                                </a>
+                            </div>
 
-                        <div class="proyect-footer text-white">
-                            <div class="proyect-info">
-                                Consumo de la API de Rick And Morty <br> <br>
-                                Utiliza el lenguaje de <strong>PHP</strong>  y el framework <strong>Laravel</strong>, con <strong>Livewire</strong> para hacer reactiva la página. <br> <br>
-                                La lógica principal no se maneja con JavaScript, sino con <strong>Livewire</strong> ya que es un framework para JavaScritp que trabaja con PHP. <br> <br>
-                                El diseño está inspirado en una actividad que realice dentro de mis residencias profesionales, y como en mis residencias estaba trabajando con PHP decidi usar los mismos framework con los que trabajaba.
+
+                            <div class="proyect-footer text-white">
+                                <div class="proyect-info">
+                                    Utiliza el lenguaje de <strong>PHP</strong> y el framework <strong>Laravel</strong>, con <strong>Livewire</strong> para hacer reactiva la página. <br> <br>
+                                    La lógica principal no se maneja con JavaScript, sino con <strong>Livewire</strong> ya que es un framework para JavaScritp que trabaja con PHP. <br> <br>
+                                    El diseño está inspirado en una actividad que realice dentro de mis residencias profesionales, y como en mis residencias estaba trabajando con PHP decidi usar los mismos framework con los que trabajaba.
+                                </div>
+                                <div class="proyect-more">
+                                    <p class="proyect-more-title">
+                                        Tecnologías usuadas
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <ul class="m-0">
+                                                <li class="colored-bullet">Livewire</li>
+                                                <li class="colored-bullet">Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6">
+                                            <ul class="m-0">
+                                                <li class="colored-bullet">Livewire</li>
+                                                <li class="colored-bullet">Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -468,38 +490,40 @@
                         <p class="align-content-center">
                             Página web para unir archivos PDF.
                         </p>
-                        <div class="proyect-content">
+                        <div>
+                            <div class="proyect-content">
 
-                            <a href="{{route('pdf.index')}}" target="_blank">
-                                <div class="proyect-img">
-                                    <img class="img-fluid" src="{{asset('img/pdf.png')}}" alt="">
-                                </div>
-                            </a>
+                                <a href="{{route('pdf.index')}}" target="_blank">
+                                    <div class="proyect-img">
+                                        <img class="img-fluid" src="{{asset('img/pdf.png')}}" alt="">
+                                    </div>
+                                </a>
 
 
-                            <a class="github-logo" href="https://github.com/JResendi2/mergepdf.git">
-                                <div class="d-flex align-items-center gap-1">
-                                    <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
-                                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                    <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                                <a class="github-logo" href="https://github.com/JResendi2/mergepdf.git">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+                                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
 
-                                                    </path>
+                                                        </path>
+                                                    </g>
                                                 </g>
                                             </g>
-                                        </g>
-                                    </svg>
-                                    GitHub
-                                </div>
-                            </a>
+                                        </svg>
+                                        GitHub
+                                    </div>
+                                </a>
 
-                        </div>
-                        <div class="proyect-footer text-white">
-                            <div class="proyect-info">
-                                Del lado del cliente utliza JavaScript con JQuery y del lado del servidor trabaja PHP con Laravel para unir los PDF´s <br><br>
-                                Fue un proyecto que inicio como una practica para crear un input personalizado para seleccionar archivos. De ahí lo complemente con
-                                la funcionalida de fusionar los documentos, además de poder reordenar los archivos y seleccionar más archivos o eliminar los seleccionados antes de fusionarlos.
+                            </div>
+                            <div class="proyect-footer text-white">
+                                <div class="proyect-info">
+                                    Del lado del cliente utliza JavaScript con JQuery y del lado del servidor trabaja PHP con Laravel para unir los PDF´s <br><br>
+                                    Fue un proyecto que inicio como una practica para crear un input personalizado para seleccionar archivos. De ahí lo complemente con
+                                    la funcionalida de fusionar los documentos, además de poder reordenar los archivos y seleccionar más archivos o eliminar los seleccionados antes de fusionarlos.
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -516,42 +540,43 @@
                             Sitio web la carrera de Ingeniería en Sistemas Computacionales.
                         </p>
 
+                        <div>
+                            <div class="proyect-content">
+                                <a href="{{env('URL_ISC')}}" target="_blank">
+                                    <div class="proyect-img">
+                                        <img class="img-fluid" src="{{asset('img/isc.png')}}" alt="">
+                                    </div>
+                                </a>
 
-                        <div class="proyect-content">
-                            <a href="{{env('URL_ISC')}}" target="_blank">
-                                <div class="proyect-img">
-                                    <img class="img-fluid" src="{{asset('img/isc.png')}}" alt="">
-                                </div>
-                            </a>
+                                <a class="github-logo" href="https://github.com/JResendi2/isc.git">
+                                    <div class="d-flex align-items-center gap-1">
 
-                            <a class="github-logo" href="https://github.com/JResendi2/isc.git">
-                                <div class="d-flex align-items-center gap-1">
+                                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+                                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
 
-                                    <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
-                                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                    <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
-
-                                                    </path>
+                                                        </path>
+                                                    </g>
                                                 </g>
                                             </g>
-                                        </g>
-                                    </svg>
-                                    GitHub
-                                </div>
+                                        </svg>
+                                        GitHub
+                                    </div>
 
-                            </a>
-                        </div>
-                        <div class="proyect-footer text-white">
-                            <div class="proyect-info">
-                                Es una aplicación web que realicé como proyecto en una matéria en conjunto con otros compañeros. <br> <br>
-                                Es una aplicación que no esta basada en ningun patron de diseño, ni utiliza ningun framework. Esta hecha en <strong>PHP</strong> y <strong>JavaScript</strong> (además del HTML y CSS). <br> <br>
-                                Fué realizada con el fin de ser un blog y gestor de actividades para la carrera de ISC.
+                                </a>
+                            </div>
+                            <div class="proyect-footer text-white">
+                                <div class="proyect-info">
+                                    Es una aplicación web que realicé como proyecto en una matéria en conjunto con otros compañeros. <br> <br>
+                                    Es una aplicación que no esta basada en ningun patron de diseño, ni utiliza ningun framework. Esta hecha en <strong>PHP</strong> y <strong>JavaScript</strong> (además del HTML y CSS). <br> <br>
+                                    Fué realizada con el fin de ser un blog y gestor de actividades para la carrera de ISC.
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 70">
@@ -563,35 +588,38 @@
                             Frontend de una tienda de ropa implementada con DJango del lado del Backend.
                         </p>
 
-                        <div class="proyect-content">
-                            <a href="https://reedij.pythonanywhere.com/" target="_blank">
-                                <div class="proyect-img">
-                                    <img class="img-fluid" src="{{asset('img/store.png')}}" alt="">
-                                </div>
-                            </a>
-                            <a class="github-logo" href="https://github.com/JResendi2/store.git">
-                                <div class="d-flex align-items-center gap-1">
-                                    <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
-                                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                    <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                        <div>
 
-                                                    </path>
+                            <div class="proyect-content">
+                                <a href="https://reedij.pythonanywhere.com/" target="_blank">
+                                    <div class="proyect-img">
+                                        <img class="img-fluid" src="{{asset('img/store.png')}}" alt="">
+                                    </div>
+                                </a>
+                                <a class="github-logo" href="https://github.com/JResendi2/store.git">
+                                    <div class="d-flex align-items-center gap-1">
+                                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+                                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+
+                                                        </path>
+                                                    </g>
                                                 </g>
                                             </g>
-                                        </g>
-                                    </svg>
-                                    GitHub
+                                        </svg>
+                                        GitHub
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="proyect-footer text-white">
+                                <div class="proyect-info">
+                                    En en lado del servidor utiliza el lenguaje de Python con el framework de DJango para gestionar toda la información relacionada con los usuarios y productos. Del lado del cliente utliza JavaScript, HTML y CSS <br> <br>
+                                    La funcionalidad principal es emular una compra online desde el registro del cliente hasta la parte donde se agrega el producto al carrito de compras. <br><br>
+                                    Esta aplicación surgio de un curso de Udemy sobre diseño web, donde una de las practicas era realizar este diseño, despues yo le agrege toda la
+                                    lógica de programación para que funcionara y emulara una tienda online.
                                 </div>
-                            </a>
-                        </div>
-                        <div class="proyect-footer text-white">
-                            <div class="proyect-info">
-                                En en lado del servidor utiliza el lenguaje de Python con el framework de DJango para gestionar toda la información relacionada con los usuarios y productos. Del lado del cliente utliza JavaScript, HTML y CSS <br> <br>
-                                La funcionalidad principal es emular una compra online desde el registro del cliente hasta la parte donde se agrega el producto al carrito de compras. <br><br>
-                                Esta aplicación surgio de un curso de Udemy sobre diseño web, donde una de las practicas era realizar este diseño, despues yo le agrege toda la 
-                                lógica de programación para que funcionara y emulara una tienda online.
                             </div>
                         </div>
                     </div>
@@ -609,42 +637,58 @@
                             Sitio web la carrera de Ingeniería en Sistemas Computacionales.
                         </p>
 
+                        <div>
 
-                        <div class="proyect-content">
-                            <a href="{{route('jugar')}}" target="_blank">
-                                <div class="proyect-img">
-                                    <img class="img-fluid" src="{{asset('img/trivia.png')}}" alt="">
-                                </div>
-                            </a>
+                            <div class="proyect-content">
+                                <a href="{{route('jugar')}}" target="_blank">
+                                    <div class="proyect-img">
+                                        <img class="img-fluid" src="{{asset('img/trivia.png')}}" alt="">
+                                    </div>
+                                </a>
 
-                            <a class="github-logo" href="https://github.com/JResendi2/isc.git">
-                                <div class="d-flex align-items-center gap-1">
+                                <a class="github-logo" href="https://github.com/JResendi2/isc.git">
+                                    <div class="d-flex align-items-center gap-1">
 
-                                    <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                            <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
-                                                <g id="icons" transform="translate(56.000000, 160.000000)">
-                                                    <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+                                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#000000">
+                                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
 
-                                                    </path>
+                                                        </path>
+                                                    </g>
                                                 </g>
                                             </g>
-                                        </g>
-                                    </svg>
-                                    GitHub
-                                </div>
+                                        </svg>
+                                        GitHub
+                                    </div>
 
-                            </a>
-                        </div>
-                        <div class="proyect-footer text-white">
-                            <div class="proyect-info">
-                                Es una aplicación web que realicé como proyecto en una matéria en conjunto con otros compañeros. <br> <br>
-                                Es una aplicación que no esta basada en ningun patron de diseño, ni utiliza ningun framework. Esta hecha en <strong>PHP</strong> y <strong>JavaScript</strong> (además del HTML y CSS). <br> <br>
-                                Fué realizada con el fin de ser un blog y gestor de actividades para la carrera de ISC.
+                                </a>
+                            </div>
+                            <div class="proyect-footer text-white">
+                                <div class="proyect-info">
+                                    Aplicación web de preguntas y respuestas hecha con JavaScript del lado del cliente y del lado del servidor contiene PHP. Funciona con una API que esta del lado del servidor <br>
+                                </div>
+                                <div class="proyect-more">
+                                    <p class="proyect-more-title">
+                                        Acceso a la API
+                                    </p>
+
+                                    <div class="proyect-more-info d-flex">
+                                        <p>Temas: <span class="text-success text-bold">GET </span> <span class="text-warning">http://reediz.com/temas</span></p>
+                                    </div>
+
+                                    <div class="proyect-more-info d-flex">
+                                        <p>Preguntas: <span class="text-success text-bold">GET </span> <span class="text-warning">http://reediz.com/preguntas/1</span></p>
+                                    </div>
+
+
+                                </div>
                             </div>
                         </div>
+
                     </div>
-                    
+
                 </div>
             </div>
         </div>
