@@ -89,8 +89,14 @@
                     <div>
                         <h4 class="mb-4 text-center name">José Gudalupe Reséndiz Reséndiz</h4>
                         <p class="text-white info">
-                            Actualmente acabo de concluir mis estudios de la carrera de Ingeniería en Sistemas Computacionales. Estoy en busca de un mejor trabajo laborar donde pueda ejercer mi profesión.
-                            Tengo conocimientos en procesos de desarrollo de software clásicos y agiles, además en actividades para el aseguramiento de la calidad. Cuento con las aptitudes necesarias para trabajar tanto en equipo como de forma personal. Durante mis estudios participe en concursos de programación. Me considero una persona autodidacta, ya que por mi cuenta he aprendido sobre base de datos y lenguajes de programación, concluyendo en algunos proyectos. Con todo esto busco impactar positivamente a la sociedad desarrollando proyectos de software. Actualmente tengo la disponibilidad de mudarme al lugar de trabajo, de igual manera puedo seguir aprendiendo y adaptarme a los nuevos cambios.
+                            Soy Ingeniero en Sistemas Computacionales con experiencia en el desarrollo de proyectos
+                            de software, tanto de manera individual como en equipos colaborativos. Mi enfoque
+                            autodidacta me ha permitido adquirir conocimientos en bases de datos y diversos
+                            lenguajes de programación, aplicándolos con éxito en proyectos que buscan impactar
+                            positivamente en la sociedad. Actualmente, estoy en búsqueda de nuevas oportunidades
+                            laborales donde pueda continuar desarrollando mi carrera y aportar valor. Estoy
+                            dispuesto a mudarme según las necesidades del puesto y me adapto con facilidad a
+                            nuevos desafíos y tecnologías emergentes.
                         </p>
                     </div>
                 </div>
@@ -102,16 +108,11 @@
 
         <div class="section d-flex flex-column flex-md-row">
             <div class="w-100 w-md-50">
-                <h3 class="mb-4">Habilidades</h3>
+                <h3 class="mb-4 title-skills">Habilidades</h3>
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
                         <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
                     Planificación y supervisión de procesos
-                </div>
-                <div class="d-flex gap-4 mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
-                        <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
-                    Innovación creativa
                 </div>
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
@@ -126,7 +127,7 @@
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
                         <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
-                    Desarrollo Android
+                    Creación de aplicaciones móviles
                 </div>
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
@@ -136,17 +137,27 @@
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
                         <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
-                    Construcción de APIs RESTFul
+                    Construcción de aplicaciones con el patrón de diseño MVC
                 </div>
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
                         <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
-                    Redes de computadoras
+                    Diseño y construcción de páginas web
                 </div>
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
                         <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
-                    Soporte y mantenimiento de equipo de cómputo
+                    Modelado y construcción de bases de datos
+                </div>
+                <div class="d-flex gap-4 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
+                        <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
+                    Construcción y consumo de APIs
+                </div>
+                <div class="d-flex gap-4 mb-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
+                        <path d="M480-280q83 0 141.5-58.5T680-480q0-83-58.5-141.5T480-680q-83 0-141.5 58.5T280-480q0 83 58.5 141.5T480-280Zm0 200q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z" /></svg>
+                        Uso de Frameworks: Laravel, Django y Spring Boot
                 </div>
                 <div class="d-flex gap-4 mb-2">
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#313C4E">
@@ -155,7 +166,7 @@
                 </div>
             </div>
             <div class="w-100 w-md-50">
-                <h3 class="mb-4 mt-md-0 mt-4">Tecnologias</h3>
+                <h3 class="mb-4 mt-md-0 mt-4 title-skills">Tecnologias</h3>
 
                 <div class="d-flex gap-4 mb-4 justify-content-end flex-wrap">
                     <div class="icon">
@@ -391,31 +402,40 @@
         </div>
     </section>
     <section id="section-3" class="container-xl">
+        <h5 class="mb-4 p-2 title-experience">Experiencia laboral</h5>
 
         <div class="section">
-            <h3 class="mb-4">Experiencia laboral</h3>
-            <p class="mb-3">Rafik MX. Enero 2024 - Actualmente</p>
-            <p class="exp-laboral">
-                Rafik es una empresa del ámbito legal donde realicé mis prácticas profesionales. Actualmente sigo trabajando ahí mismo como desarrollador web con la tecnología de PHP con Laravel. Mis actividades van desde el diseño de páginas web hasta la programación de diferentes módulos. Por la parte del Frontend trabajo con JavaScript, JQuery, HTML, CSS, Bootstrap y archivos SASS. Del lado del Backend utilizo PHP con el framework Laravel.
-            </p>
-
-            {{-- <p>
-                Como actividades realizadas fueron diseño y envio de correos electronico a los usuario. Creación y modificaciones de tablas de la base de datos.
-                Uso de la API de WhatsApp. Creacion de un dashboar. Integración de la camara. Generacion de archivos PDF. Integracion de un modulo para unir archivos PDF. Integración de
-                la firma masiva. Creación de un calendario con eventos. Configuración de roles y permisos. Trabajé con APIs.
-            </p> --}}
+            <p class="mb-3">Rafik MX. Enero 2024 - actualidad.</span></p>
+            <p><span> <strong>Desarrollador web</strong> - Rafik – Tampico, Tamaulipas</p><br>
+            <div class="row g-5">
+                <div class="col-6">
+                    <p class="exp-laboral">
+                        Desarrollador web enfocado a la gestión documental. Mis actividades están enfocadas a garantizar
+la integridad de documentos legales, certificación de documentos, validación de identidad,
+recolección de firmas digitales y mejora de módulos para mejora la experiencia del usuario. 
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>
+                        Por la parte del Frontend trabajo con JavaScript, JQuery, HTML, CSS, Bootstrap y archivos SASS. Del
+                        lado del Backend utilizo PHP con el framework Laravel y diversas librerías para la gestión de
+                        documentos. De igual manera hago la revisión y prueba de los módulos desarrollados.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <section id="section-4" class="container-xl">
 
-        <div class="section">
-            <h3 class="mb-5">Aplicaciones Web</h3>
+        <h5 class="mb-4 p-2 title-app-webs">Aplicaciones Web</h5>
+        <div class="section px-0" style="background-color: #313C4E">
+
             <div class="row mb-5 g-5">
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 100">
                     <div class="proyect">
 
                         <h5>API Rick and Morty</h5>
-                        <p class="proyect-date">Abril - 2024</p>
+                        <p class="proyect-date">Febrero - 2024</p>
 
                         <p class="align-content-center">
                             Consumo de una API de imagenes
@@ -447,8 +467,6 @@
                                     </div>
                                 </a>
                             </div>
-
-
                             <div class="proyect-footer text-white">
                                 <div class="proyect-info">
                                     Utiliza el lenguaje de <strong>PHP</strong> y el framework <strong>Laravel</strong>, con <strong>Livewire</strong> para hacer reactiva la página. <br> <br>
@@ -485,7 +503,7 @@
                     <div class="proyect">
 
                         <h5>Merge pdf</h5>
-                        <p class="proyect-date">Abril - 2024</p>
+                        <p class="proyect-date">Marzo - 2024</p>
 
                         <p class="align-content-center">
                             Página web para unir archivos PDF.
@@ -534,7 +552,7 @@
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 80">
                     <div class="proyect">
                         <h5>ISC</h5>
-                        <p class="proyect-date">Abril - 2024</p>
+                        <p class="proyect-date">Proyecto escolar</p>
 
                         <p class="align-content-center">
                             Sitio web la carrera de Ingeniería en Sistemas Computacionales.
@@ -582,7 +600,7 @@
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 70">
                     <div class="proyect">
                         <h5>Store</h5>
-                        <p class="proyect-date">Abril - 2024</p>
+                        <p class="proyect-date">Mayo - 2024</p>
 
                         <p class="align-content-center">
                             Frontend de una tienda de ropa implementada con DJango del lado del Backend.
@@ -631,7 +649,7 @@
                 <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 60">
                     <div class="proyect">
                         <h5>Trivia de preguntas</h5>
-                        <p class="proyect-date">Abril - 2024</p>
+                        <p class="proyect-date">Junio - 2024</p>
 
                         <p class="align-content-center">
                             Sitio web la carrera de Ingeniería en Sistemas Computacionales.
@@ -646,7 +664,7 @@
                                     </div>
                                 </a>
 
-                                <a class="github-logo" href="https://github.com/JResendi2/isc.git">
+                                <a class="github-logo" href="https://github.com/JResendi2/trivia">
                                     <div class="d-flex align-items-center gap-1">
 
                                         <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -690,53 +708,233 @@
                     </div>
 
                 </div>
+                <div class="contenedor-proyect col-md-6 mb-md-0 mb-4" style="z-index: 60">
+                    <div class="proyect">
+                        <h5>Chatbot</h5>
+                        <p class="proyect-date">Junio - 2024</p>
+
+                        <p class="align-content-center">
+                            Sitio web que implementa ChatGPT.
+                        </p>
+
+                        <div>
+
+                            <div class="proyect-content">
+                                <a href="{{route('chatbot')}}" target="_blank">
+                                    <div class="proyect-img">
+                                        <img class="img-fluid" src="{{asset('img/chatbot.png')}}" alt="">
+                                    </div>
+                                </a>
+
+                                <a class="github-logo" href="https://github.com/JResendi2/chatbot">
+                                    <div class="d-flex align-items-center gap-1">
+
+                                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)" fill="#ffffff">
+                                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399" id="github-[#142]">
+
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        <span class="text-white">GitHub</span>
+                                    </div>
+
+                                </a>
+                            </div>
+                            
+                            <div class="proyect-footer text-white">
+                                <div class="proyect-info">
+                                    Es una aplicacación que utiliza la API de OpenAI para hacer una conexión con ChatGPT. De esta manera se puede crear una pagina personalizada donde el usuario pueda interactura con ChatGPT. <br><br>
+                                    Del lado del servidor trabaja con Python y el framework DJango para hacer la conexión a la API de OpenAI. Del lado del cliente se realiza la conexión mediante JavaScript a mi propia API hecha en Python.
+                                </div>
+                                {{-- <div class="proyect-more">
+                                    <p class="proyect-more-title">
+                                        Acceso a la API
+                                    </p>
+
+                                    <div class="proyect-more-info d-flex">
+                                        <p>Temas: <span class="text-success text-bold">GET </span> <span class="text-warning">http://reediz.com/temas</span></p>
+                                    </div>
+
+                                    <div class="proyect-more-info d-flex">
+                                        <p>Preguntas: <span class="text-success text-bold">GET </span> <span class="text-warning">http://reediz.com/preguntas/1</span></p>
+                                    </div>
+                                </div> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="section-5" class="container-xl">
-        <div class="section">
-            <h3 class="mb-4">Proyectos escolares y personales</h3>
+        <div class="row">
 
-            <div class="row">
-                <div class="col-md-6">
-                    <ul class="d-flex flex-column gap-2">
-                        <li>
-                            <p class="mb-3 fw-bold">App móvil para la gestión de un almacén.</p>
+            <div class="col-md-6 pe-md-5">
+                <h5 class="mb-4 p-2 text-center title-apps-movil">Apps para moviles</h5>
+
+                <div class="d-flex align-items-center border-bottom pb-4">
+                    <div class="w-50 d-flex justify-content-center">
+                        <div id="indicadores" class="carousel slide"  data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button class="active" data-bs-target="#indicadores" data-bs-slide-to="0"></button>
+                                <button data-bs-target="#indicadores" data-bs-slide-to="1"></button>
+                                <button data-bs-target="#indicadores" data-bs-slide-to="2"></button>
+                                <button data-bs-target="#indicadores" data-bs-slide-to="3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid movil-img" src="{{asset('img/movil-store/store-1.jpg')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid movil-img" src="{{asset('img/movil-store/store-2.jpg')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid movil-img" src="{{asset('img/movil-store/store-3.jpg')}}" alt="">
+                                </div>
+                                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#indicadores">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#indicadores">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-50">
+                        <p class="mb-3 text-green fw-bold">App móvil para la gestión de un almacén.</p>
+                        <p class="text-white">
                             Aplicación móvil para Android que permite administrar un almacén de una tienda.
-                        </li>
-                    </ul>
-
-                    <ul class="d-flex flex-column gap-2">
-                        <li>
-                            <p class="mb-3 fw-bold">Aplicación web para talleres de congresos.</p>
-                            Aplicación web para el registro de talleres de congresos y de los alumnos que se inscriben a ellos.
-                        </li>
-                    </ul>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <ul class="d-flex flex-column gap-2">
-                        <li>
-                            <p class="mb-3 fw-bold">DataSystem.</p>
-                            Programa de escritorio para un negocio de soporte y mantenimiento de equipo de cómputo.
-                        </li>
-                    </ul>
 
-                    <ul class="d-flex flex-column gap-2">
-                        <li>
-                            <p class="mb-3 fw-bold">Videojuego.</p>
-                            Videojuego basado en el primer nivel de Súper Mario Bros.
-                        </li>
-                    </ul>
+                <div class="d-flex align-items-center mt-4 border-bottom pb-4 flex-row-reverse">
+                    <div class="w-50 d-flex justify-content-center">
+                        <div id="indicadores-1" class="carousel slide"  data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button class="active" data-bs-target="#indicadores-1" data-bs-slide-to="0"></button>
+                                <button data-bs-target="#indicadores-1" data-bs-slide-to="1"></button>
+                                <button data-bs-target="#indicadores-1" data-bs-slide-to="2"></button>
+                                <button data-bs-target="#indicadores-1" data-bs-slide-to="3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid movil-img" src="{{asset('img/movil-fruti/fruti-1.jpg')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid movil-img" src="{{asset('img/movil-fruti/fruti-2.jpg')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid movil-img" src="{{asset('img/movil-fruti/fruti-3.jpg')}}" alt="">
+                                </div>
+                                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#indicadores-1">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#indicadores-1">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-50">
+                        <p class="mb-3 text-green fw-bold">App móvil de un videojuego de sumas.</p>
+                        <p class="text-white">
+                            Aplicación móvil para Android que hice a partir de un curso.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class="col-md-6">
+                <h5 class="mb-4 p-2 text-center title-apps-movil">Programas de escritorio</h5> 
+
+                <div class="border-bottom w-100 px-4 pb-4">
+                    <div class="d-flex justify-content-center mb-5">
+                        <div id="indicadores-2" class="carousel slide desktop-img"  data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button class="active" data-bs-target="#indicadores-2" data-bs-slide-to="0"></button>
+                                <button data-bs-target="#indicadores-2" data-bs-slide-to="1"></button>
+                                <button data-bs-target="#indicadores-2" data-bs-slide-to="2"></button>
+                                <button data-bs-target="#indicadores-2" data-bs-slide-to="3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid" src="{{asset('img/desktop-ds/ds-1.png')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="{{asset('img/desktop-ds/ds-2.png')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="{{asset('img/desktop-ds/ds-3.png')}}" alt="">
+                                </div>
+                                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#indicadores-2">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#indicadores-2">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="mb-3 text-green fw-bold text-center">DataSystem.</p>
+                        <p class="text-white">
+                            Programa de escritorio para un negocio de soporte y mantenimiento de equipo de cómputo, realizado a partir de un curso.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="border-bottom w-100 px-4 mt-4 pb-4">
+                    <div class="d-flex justify-content-center mb-5">
+                        <div id="indicadores-3" class="carousel slide desktop-img"  data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button class="active" data-bs-target="#indicadores-3" data-bs-slide-to="0"></button>
+                                <button data-bs-target="#indicadores-3" data-bs-slide-to="1"></button>
+                                <button data-bs-target="#indicadores-3" data-bs-slide-to="2"></button>
+                                <button data-bs-target="#indicadores-3" data-bs-slide-to="3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-fluid" src="{{asset('img/desktop-game/game-1.png')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="{{asset('img/desktop-game/game-2.png')}}" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="img-fluid" src="{{asset('img/desktop-game/game-3.png')}}" alt="">
+                                </div>
+                                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#indicadores-3">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#indicadores-3">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="mb-3 text-green fw-bold text-center">Videojuego.</p>
+                        <p class="text-white">
+                            Videojuego basado en el primer nivel de Súper Mario Bros.
+                        </p>
+                    </div>
+                </div>
+
+        
+            </div>
+    </div>
+
     </section>
 
     <section id="section-6" class="container-xl">
+        <h5 class="mb-4 p-2" style="background-color:#ee0b5b; color:#171430">Educación</h5>
 
         <div class="section">
-            <h3 class="mb-4">Educación</h3>
 
             <div class="row">
                 <div class="col-md-6">
@@ -769,7 +967,7 @@
                             Especialidad: Técnico en mantenimiento y soporte a equipo de cómputo.
                         </li>
                         <li>
-                            Promedio: 93
+                            Promedio: 91
                         </li>
                     </ul>
                 </div>
@@ -783,7 +981,7 @@
             <div class="row">
 
                 <div class="col-md-6">
-                    <h3 class="mb-4">Certificaciones</h3>
+                    <h5 class="mb-4">Certificaciones</h5>
 
                     <div class="d-flex flex-column gap-3">
                         <div class="d-flex align-items-center gap-2">
@@ -824,7 +1022,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <h3 class="mb-4 mt-md-0 mt-4">Lenguas extranjeras</h3>
+                    <h5 class="mb-4 mt-md-0 mt-4">Lenguas extranjeras</h5>
                     <ul class="d-flex flex-column gap-2">
                         <li>
                             <a href="">

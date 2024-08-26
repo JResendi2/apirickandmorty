@@ -21,6 +21,29 @@ p{
     margin: 0;
 }
 
+.text-green{
+    color: $verde-oscuro;
+}
+
+.title-skills{
+    color: $verde-oscuro;
+}
+
+.title-experience{
+    background-color: $amarillo;
+    color: $negro-oscuro;
+}
+
+.title-app-webs{
+    background-color: $verde-oscuro;
+    color: $negro-oscuro;
+}
+
+.title-apps-movil{
+    background-color:#faab00; 
+    color:#171430
+}
+
 .app-header {
     background-color: black;
     position: fixed;
@@ -74,7 +97,6 @@ p{
 .section {
     background-color: white;
     padding: 2rem;
-    border-radius: 5px;
 }
 .about {
     .img-photo {
@@ -233,4 +255,12 @@ p{
         }
     }
 
+}
+
+.movil-img{
+    max-height: 40rem;
+}
+
+.desktop-img{
+    max-width: 75%;
 }

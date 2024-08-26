@@ -1,0 +1,121 @@
+body{
+    background-color: #212121;
+}
+.contenedor{
+    background-color: #212121;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chat{
+    width: 20rem;
+    height: 30rem;
+    border-radius: 15px;
+    border: solid gray 1px;
+    background-color: black;
+}
+
+.chat__barra{
+    height: 100%;
+    overflow-y: auto;
+}
+
+.chat__contenerdor{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+}
+
+.chat__limite{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+.chat__limite2{
+    width: 80%;
+    display: flex;
+}
+
+.chat__contenerdor2{
+    margin: 10px;
+}
+.titulo{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.chat__mensaje{
+    max-width: 100%;
+    word-wrap: break-word;
+    color: white;
+    font-family: sans-serif;
+    background-color: #2F2F2F;
+    border-radius: 15px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.chat__mensaje2{
+    max-width: 100%;
+    overflow-wrap: break-word; /* También puedes usar 'word-wrap: break-word;' para mayor compatibilidad */
+    background-color: #2F2F2F;
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.enviar-contenedor{
+    display: flex;
+    width: 20rem;
+    margin-top: 1rem;
+    position: relative;
+}
+.enviar-txt{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 20px;
+    padding-right: 60px;
+    background-color: #2F2F2F;
+}
+
+.txt-enviar{
+    width: 100%;
+    background-color: #2F2F2F;
+    border: none;
+    color: white;
+}
+
+.txt-enviar:focus {
+    outline: none
+}
+
+.boton_contenedor{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.boton{
+    border-radius: 15px;
+    background-color: #676767;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 1rem;
+}

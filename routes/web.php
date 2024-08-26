@@ -33,3 +33,6 @@ Route::get('/mergepdf/download-pdf/{filemane}', [PdfController::class, "download
 Route::get('/temas', [ApiTrivia::class, 'getTemas'])->name('temas');
 Route::get('/preguntas/{tema}', [ApiTrivia::class, 'getPreguntas'])->name('preguntas');
 Route::get('/jugar', [ApiTrivia::class, 'jugar'])->name('jugar');
+
+/* App de chatgpt */
+Route::get('/chatbot', function(){return view('chatbot.chatbot');})->name('chatbot');
