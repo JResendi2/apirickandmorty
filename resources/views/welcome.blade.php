@@ -560,11 +560,11 @@ recolección de firmas digitales y mejora de módulos para mejora la experiencia
 
                         <div>
                             <div class="proyect-content">
-                                <a href="{{env('URL_ISC')}}" target="_blank">
+                                {{-- <a href="{{env('URL_ISC')}}" target="_blank"> --}}
                                     <div class="proyect-img">
                                         <img class="img-fluid" src="{{asset('img/isc.png')}}" alt="">
                                     </div>
-                                </a>
+                                {{-- </a> --}}
 
                                 <a class="github-logo" href="https://github.com/JResendi2/isc.git">
                                     <div class="d-flex align-items-center gap-1">
